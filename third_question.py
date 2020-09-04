@@ -1,0 +1,10 @@
+print('Enter x and y')
+a = int(input())
+b = int(input())
+print('Before swapping')
+print('x = ',a)
+print('y = ',b)
+a, b = b, a
+print('After swapping without a third variable')
+print('x = ',a)
+print('y = ',b)
